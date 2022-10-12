@@ -9,6 +9,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>React Avançado - Boilerplate</title>
         <link rel="shortcut icon" href="/img/favicon.ico" />
         <link rel="apple-touch-icon" href="/img/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092B" />
         <meta
           name="description"
           content="A simnple project stater to work with Typéscript, React, NextJs and Styles components"
