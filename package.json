@@ -12,7 +12,7 @@
     "test:watch": "yarn test --watch"
   },
   "lint-staged": {
-    "src/**/*": ["yarn lint", "yarn test --bail"]
+    "src/**/*": ["yarn lint", "yarn test --findRelatedTests --bail"]
   },
   "dependencies": {
     "next": "12.3.1",
